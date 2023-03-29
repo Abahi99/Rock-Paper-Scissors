@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Pacifico&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Rock-Paper-Scissor</title>
 </head>
 <body>
-    <script src="play.js"></script>
-    
+
+    <h1>Rock Paper Scissors Game</h1>
+    <div class="btn">
+        <div class="button" id="paper"><img src="Paper.png" alt="Picture of a Paper"></div>
+        <div class="button" id="rock"><img src="Rock.png" alt="Picture of a Rock"></div>
+        <div class="button" id="scissor"><img src="Scissor.png" alt="Picture of a Scissor"></div>
+    </div>
+    <h2>You VS Computer</h2>
+    <div>
+        <span class="score" id="Sshow"></span>
+    </div>
+    <div class="round">
+        <span id="Rmessage"></span>
+    </div>
+    <div class="winner">
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
